@@ -1,0 +1,501 @@
+date,store_name,product_id,product_name,category,units_sold,units_ordered,price,discount_pct,revenue,weather,season,demand_level,promotion,is_holiday,festival
+2020-01-02,DMart,STA018,Stationery Item 18,stationery,32,40,560.28,10.73,17928.96,hot,winter,medium,0,0,New Year
+2020-01-07,DMart,BEV017,Beverage Item 17,beverages,146,174,206.53,0.0,30153.38,hot,winter,high,1,0,New Year
+2020-01-11,DMart,HTX002,Home Textile 2,home_textiles,8,10,3408.76,0.0,27270.08,rainy,winter,medium,0,1,
+2020-01-15,DMart,BEA013,Beauty Item 13,beauty,13,16,1945.18,0.87,25287.34,humid,winter,medium,0,0,New Year
+2020-01-23,DMart,FTW002,Footwear Item 2,footwear,4,4,1641.18,9.95,6564.72,rainy,winter,low,0,0,
+2020-01-25,DMart,MAK004,Makeup Item 4,makeup,5,6,2413.12,15.22,12065.6,stormy,winter,low,0,0,
+2020-02-02,DMart,TOY009,Toy 9,toys,24,25,1043.95,0.0,25054.8,rainy,winter,medium,1,0,
+2020-02-08,DMart,CLO001,Clothing Item 1,clothing,11,12,1251.95,3.2,13771.45,sunny,winter,medium,0,0,
+2020-02-09,DMart,BEV019,Beverage Item 19,beverages,450,462,33.83,11.83,15223.5,cold,winter,medium,0,0,
+2020-02-11,DMart,SWT008,Sweets Item 8,sweets,91,110,191.14,4.08,17393.74,sunny,winter,medium,0,1,
+2020-02-20,DMart,SWT010,Sweets Item 10,sweets,51,56,505.73,10.45,25792.23,cool,winter,medium,0,0,Valentine's Day
+2020-02-21,DMart,HTX002,Home Textile 2,home_textiles,9,9,2924.26,13.13,26318.34,sunny,winter,medium,0,1,
+2020-02-27,DMart,TOY009,Toy 9,toys,5,5,1040.74,4.54,5203.7,sunny,winter,low,0,0,
+2020-03-11,DMart,STA018,Stationery Item 18,stationery,32,33,614.0,0.0,19648.0,cold,summer,medium,1,0,
+2020-03-20,DMart,TRA004,Travel Item 4,travel_accessories,19,20,970.05,6.97,18430.95,sunny,summer,medium,0,0,
+2020-03-21,DMart,BEV010,Beverage Item 10,beverages,132,161,222.51,6.68,29371.32,cool,summer,high,0,1,Holi
+2020-03-24,DMart,VEG006,Veg Item 6,vegetables,476,559,37.82,6.69,18002.32,hot,summer,medium,0,0,Holi
+2020-04-06,DMart,ELE025,Electronics Item 25,electronics,7,8,29256.73,8.51,204797.11,cool,summer,medium,1,0,
+2020-04-10,DMart,VEG006,Veg Item 6,vegetables,553,610,31.75,13.45,17557.75,stormy,summer,medium,0,0,Ram Navami
+2020-04-11,DMart,FTW009,Footwear Item 9,footwear,4,4,1720.01,7.69,6880.04,humid,summer,low,0,0,
+2020-04-15,DMart,TOY003,Toy 3,toys,5,6,1296.71,2.39,6483.55,cool,summer,low,0,0,
+2020-04-20,DMart,ELE020,Electronics Item 20,electronics,2,2,13779.56,0.0,27559.12,rainy,summer,medium,0,0,
+2020-04-21,DMart,BEA007,Beauty Item 7,beauty,108,123,170.71,5.45,18436.68,cool,summer,medium,0,0,Ram Navami
+2020-04-23,DMart,BEA006,Beauty Item 6,beauty,13,16,762.04,8.57,9906.52,humid,summer,low,0,0,
+2020-04-27,DMart,MAK003,Makeup Item 3,makeup,87,96,222.72,5.49,19376.64,cold,summer,medium,0,0,Ram Navami
+2020-04-28,DMart,HTX006,Home Textile 6,home_textiles,2,3,5416.64,8.53,10833.28,sunny,summer,medium,1,0,
+2020-05-07,DMart,HTX007,Home Textile 7,home_textiles,1,2,3349.04,9.64,3349.04,rainy,summer,low,0,0,
+2020-05-13,DMart,TRA005,Travel Item 5,travel_accessories,8,8,1914.81,13.75,15318.48,cool,summer,medium,0,0,
+2020-05-27,DMart,TRA007,Travel Item 7,travel_accessories,9,11,1454.84,7.18,13093.56,hot,summer,medium,0,0,
+2020-06-05,DMart,FTW003,Footwear Item 3,footwear,28,29,540.15,0.0,15124.2,hot,monsoon,medium,0,0,
+2020-06-07,DMart,FTW009,Footwear Item 9,footwear,4,4,1785.55,0.0,7142.2,humid,monsoon,medium,0,0,
+2020-06-11,DMart,STA019,Stationery Item 19,stationery,29,36,418.29,0.93,12130.41,cool,monsoon,low,0,1,
+2020-06-12,DMart,VEG006,Veg Item 6,vegetables,430,548,38.01,0.0,16344.3,stormy,monsoon,medium,0,0,
+2020-06-13,DMart,VEG014,Veg Item 14,vegetables,964,1113,24.81,3.26,23916.84,humid,monsoon,medium,1,0,
+2020-06-17,DMart,VEG008,Veg Item 8,vegetables,436,458,39.29,5.47,17130.44,stormy,monsoon,medium,0,0,
+2020-06-20,DMart,FTW006,Footwear Item 6,footwear,19,19,1170.01,13.4,22230.19,cool,monsoon,medium,0,0,
+2020-06-29,DMart,SWT002,Sweets Item 2,sweets,56,69,246.27,6.97,13791.12,sunny,monsoon,medium,1,0,
+2020-06-30,DMart,FTW005,Footwear Item 5,footwear,2,2,3677.52,6.39,7355.04,rainy,monsoon,medium,0,0,
+2020-07-05,DMart,HAP007,Home Appliance 7,home_appliances,6,6,21528.6,1.44,129171.6,sunny,monsoon,medium,0,0,
+2020-07-08,DMart,VEG010,Veg Item 10,vegetables,415,463,38.26,5.2,15877.9,stormy,monsoon,medium,0,0,
+2020-07-24,DMart,HAP011,Home Appliance 11,home_appliances,2,3,34128.12,13.45,68256.24,sunny,monsoon,medium,0,0,
+2020-07-24,DMart,VEG002,Veg Item 2,vegetables,315,344,44.92,3.12,14149.8,sunny,monsoon,medium,0,0,
+2020-07-27,DMart,VEG005,Veg Item 5,vegetables,525,608,28.04,0.0,14721.0,rainy,monsoon,medium,0,0,
+2020-07-29,DMart,VEG007,Veg Item 7,vegetables,366,420,49.16,5.15,17992.56,stormy,monsoon,medium,0,0,
+2020-08-01,DMart,GROC008,Groceries Item 8,groceries,190,190,52.61,0.92,9995.9,humid,monsoon,low,0,0,
+2020-08-07,DMart,BEV004,Beverage Item 4,beverages,295,365,67.0,8.14,19765.0,sunny,monsoon,medium,0,1,
+2020-08-11,DMart,CLO020,Clothing Item 20,clothing,29,32,370.21,3.09,10736.09,cold,monsoon,low,0,0,
+2020-09-01,DMart,FTW008,Footwear Item 8,footwear,7,8,1877.65,4.84,13143.55,sunny,monsoon,medium,0,0,
+2020-09-03,DMart,GROC021,Groceries Item 21,groceries,29,33,329.34,0.0,9550.86,stormy,monsoon,low,0,0,
+2020-09-12,DMart,BEV017,Beverage Item 17,beverages,79,92,169.6,17.93,13398.4,hot,monsoon,medium,0,0,
+2020-09-20,DMart,BEV017,Beverage Item 17,beverages,124,138,195.84,0.0,24284.16,stormy,monsoon,medium,0,0,Ganesh Chaturthi
+2020-09-24,DMart,VEG018,Veg Item 18,vegetables,1101,1400,25.4,0.0,27965.4,sunny,monsoon,high,1,1,
+2020-10-08,DMart,BEA008,Beauty Item 8,beauty,12,15,2072.49,0.0,24869.88,sunny,autumn,medium,0,0,Dussehra
+2020-10-08,DMart,MAK004,Makeup Item 4,makeup,7,8,3004.07,0.0,21028.49,cool,autumn,medium,1,0,
+2020-10-09,DMart,SWT009,Sweets Item 9,sweets,23,27,664.43,1.86,15281.89,rainy,autumn,medium,0,0,
+2020-10-11,DMart,FTW008,Footwear Item 8,footwear,9,10,2128.36,0.0,19155.24,humid,autumn,medium,0,0,Dussehra
+2020-10-13,DMart,CLO029,Clothing Item 29,clothing,15,18,1478.33,10.7,22174.95,sunny,autumn,medium,0,0,Dussehra
+2020-10-18,DMart,CLO004,Clothing Item 4,clothing,14,18,894.73,0.0,12526.22,cool,autumn,medium,0,0,
+2020-10-19,DMart,TRA005,Travel Item 5,travel_accessories,3,3,2006.14,12.87,6018.42,stormy,autumn,low,0,0,
+2020-10-24,DMart,ELE017,Electronics Item 17,electronics,7,8,11206.79,8.51,78447.53,sunny,autumn,high,0,0,Dussehra
+2020-10-25,DMart,CLO024,Clothing Item 24,clothing,6,6,2663.55,9.26,15981.3,hot,autumn,medium,0,1,
+2020-10-27,DMart,HAP002,Home Appliance 2,home_appliances,6,6,23293.75,0.0,139762.5,cold,autumn,medium,1,0,
+2020-10-30,DMart,HTX009,Home Textile 9,home_textiles,1,2,4225.3,3.59,4225.3,sunny,autumn,low,0,0,
+2020-11-03,DMart,HAP014,Home Appliance 14,home_appliances,10,11,21162.74,1.25,211627.4,cool,autumn,high,0,0,Diwali
+2020-11-04,DMart,MAK010,Makeup Item 10,makeup,20,23,1376.3,6.71,27526.0,cool,autumn,medium,1,0,
+2020-11-07,DMart,MAK002,Makeup Item 2,makeup,4,4,1529.11,7.77,6116.44,humid,autumn,medium,0,0,
+2020-11-13,DMart,CLO016,Clothing Item 16,clothing,31,35,428.52,12.76,13284.12,cold,autumn,medium,0,0,
+2020-11-26,DMart,MAK009,Makeup Item 9,makeup,59,66,479.87,16.3,28312.33,cold,autumn,medium,1,0,
+2020-11-28,DMart,SWT008,Sweets Item 8,sweets,89,109,191.66,0.0,17057.74,stormy,autumn,medium,0,0,
+2020-12-01,DMart,STA006,Stationery Item 6,stationery,11,11,721.93,0.0,7941.23,rainy,winter,low,0,0,
+2020-12-01,DMart,SWT007,Sweets Item 7,sweets,63,72,472.36,0.0,29758.68,humid,winter,medium,0,1,
+2020-12-09,DMart,FTW010,Footwear Item 10,footwear,3,4,3911.23,0.0,11733.69,hot,winter,medium,1,0,
+2020-12-13,DMart,BEV012,Beverage Item 12,beverages,612,728,39.26,0.54,24027.12,cold,winter,medium,0,0,Christmas
+2020-12-14,DMart,HTX010,Home Textile 10,home_textiles,38,41,589.19,0.0,22389.22,sunny,winter,medium,0,0,Christmas
+2020-12-16,DMart,BEV006,Beverage Item 6,beverages,90,114,275.85,0.0,24826.5,stormy,winter,medium,0,0,Christmas
+2020-12-20,DMart,TRA002,Travel Item 2,travel_accessories,5,6,3971.12,10.07,19855.6,stormy,winter,medium,0,0,Christmas
+2021-01-13,DMart,BEV010,Beverage Item 10,beverages,126,133,195.3,16.43,24607.8,stormy,winter,medium,1,0,
+2021-01-16,DMart,GROC023,Groceries Item 23,groceries,121,137,146.73,1.68,17754.33,rainy,winter,medium,1,0,
+2021-01-17,DMart,FTW010,Footwear Item 10,footwear,0,0,3682.29,9.61,0.0,rainy,winter,low,0,0,
+2021-02-10,DMart,TRA009,Travel Item 9,travel_accessories,0,0,4221.37,7.43,0.0,cool,winter,medium,0,0,Valentine's Day
+2021-02-13,DMart,BEV016,Beverage Item 16,beverages,116,134,202.33,8.17,23470.28,hot,winter,medium,0,0,Valentine's Day
+2021-02-15,DMart,SWT009,Sweets Item 9,sweets,27,35,653.5,0.0,17644.5,stormy,winter,medium,0,0,
+2021-02-21,DMart,BEV008,Beverage Item 8,beverages,119,137,143.0,0.0,17017.0,hot,winter,medium,0,0,
+2021-02-24,DMart,GROC005,Groceries Item 5,groceries,32,41,289.66,0.0,9269.12,stormy,winter,low,0,0,
+2021-02-25,DMart,VEG003,Veg Item 3,vegetables,290,360,34.06,2.81,9877.4,stormy,winter,low,0,0,
+2021-02-28,DMart,SWT001,Sweets Item 1,sweets,70,89,197.33,1.87,13813.1,hot,winter,medium,0,0,
+2021-03-08,DMart,SWT008,Sweets Item 8,sweets,107,131,177.19,10.36,18959.33,humid,summer,medium,0,0,Holi
+2021-03-12,DMart,BEV011,Beverage Item 11,beverages,413,459,62.36,6.38,25754.68,cool,summer,medium,0,0,Holi
+2021-03-14,DMart,TRA010,Travel Item 10,travel_accessories,9,10,2158.09,6.63,19422.81,hot,summer,medium,1,0,
+2021-03-18,DMart,FTW001,Footwear Item 1,footwear,5,6,959.53,13.55,4797.65,humid,summer,low,0,0,
+2021-03-18,DMart,TRA006,Travel Item 6,travel_accessories,13,14,1819.85,16.51,23658.05,humid,summer,medium,0,0,Holi
+2021-03-20,DMart,CLO026,Clothing Item 26,clothing,119,154,208.7,6.96,24835.3,hot,summer,medium,0,0,Holi
+2021-04-03,DMart,TRA007,Travel Item 7,travel_accessories,12,12,1359.14,7.89,16309.68,humid,summer,medium,0,0,
+2021-04-12,DMart,BEV009,Beverage Item 9,beverages,58,68,232.04,2.76,13458.32,sunny,summer,medium,0,0,
+2021-04-13,DMart,VEG001,Veg Item 1,vegetables,401,412,48.34,4.06,19384.34,stormy,summer,medium,0,0,Ram Navami
+2021-04-14,DMart,TRA006,Travel Item 6,travel_accessories,7,7,2195.91,0.0,15371.37,sunny,summer,medium,0,0,
+2021-04-15,DMart,BEV017,Beverage Item 17,beverages,89,100,183.33,13.33,16316.37,hot,summer,medium,0,0,
+2021-04-17,DMart,ELE019,Electronics Item 19,electronics,3,3,16050.82,1.59,48152.46,sunny,summer,medium,0,0,Ram Navami
+2021-04-17,DMart,FTW009,Footwear Item 9,footwear,10,13,1682.04,12.58,16820.4,cold,summer,high,0,0,
+2021-04-18,DMart,CLO005,Clothing Item 5,clothing,31,33,748.03,13.89,23188.93,cool,summer,medium,1,0,
+2021-04-30,DMart,CLO026,Clothing Item 26,clothing,113,128,185.03,19.7,20908.39,stormy,summer,medium,1,0,
+2021-05-04,DMart,VEG013,Veg Item 13,vegetables,431,431,20.43,7.46,8805.33,stormy,summer,low,0,0,
+2021-05-06,DMart,TRA008,Travel Item 8,travel_accessories,22,25,1240.93,8.48,27300.46,cold,summer,medium,1,0,
+2021-05-09,DMart,TOY003,Toy 3,toys,10,11,1153.8,11.67,11538.0,humid,summer,low,0,1,
+2021-05-10,DMart,HTX010,Home Textile 10,home_textiles,14,17,594.05,0.0,8316.7,hot,summer,low,0,0,
+2021-05-12,DMart,TRA001,Travel Item 1,travel_accessories,7,9,1744.19,1.55,12209.33,humid,summer,medium,0,1,
+2021-05-24,DMart,ELE025,Electronics Item 25,electronics,6,7,29535.63,9.78,177213.78,cool,summer,medium,0,0,
+2021-05-25,DMart,HTX003,Home Textile 3,home_textiles,1,1,3533.34,13.73,3533.34,sunny,summer,low,0,0,
+2021-06-01,DMart,VEG001,Veg Item 1,vegetables,408,436,50.77,0.94,20714.16,hot,monsoon,medium,0,1,
+2021-06-01,DMart,VEG006,Veg Item 6,vegetables,435,465,38.32,0.0,16669.2,rainy,monsoon,medium,0,0,
+2021-06-02,DMart,VEG010,Veg Item 10,vegetables,440,531,36.06,6.42,15866.4,stormy,monsoon,medium,0,0,
+2021-06-05,DMart,FTW004,Footwear Item 4,footwear,7,8,1836.63,0.0,12856.41,stormy,monsoon,medium,0,0,
+2021-06-06,DMart,VEG008,Veg Item 8,vegetables,387,400,42.54,0.0,16462.98,sunny,monsoon,medium,0,0,
+2021-06-06,DMart,VEG008,Veg Item 8,vegetables,486,506,32.76,20.93,15921.36,rainy,monsoon,medium,0,0,
+2021-06-19,DMart,BEV005,Beverage Item 5,beverages,351,364,47.19,5.09,16563.69,humid,monsoon,medium,0,0,
+2021-06-20,DMart,TOY010,Toy 10,toys,23,29,371.71,3.76,8549.33,hot,monsoon,low,0,0,
+2021-06-26,DMart,SWT005,Sweets Item 5,sweets,59,73,193.59,0.0,11421.81,humid,monsoon,low,0,0,
+2021-06-30,DMart,STA012,Stationery Item 12,stationery,45,50,251.41,0.94,11313.45,rainy,monsoon,low,0,0,
+2021-07-04,DMart,MAK008,Makeup Item 8,makeup,12,12,2427.06,6.21,29124.72,sunny,monsoon,high,1,0,Back-to-school
+2021-07-09,DMart,VEG008,Veg Item 8,vegetables,398,399,40.27,0.71,16027.46,humid,monsoon,medium,0,0,
+2021-07-20,DMart,ELE021,Electronics Item 21,electronics,5,6,9135.55,13.33,45677.75,stormy,monsoon,high,0,0,
+2021-08-05,DMart,VEG018,Veg Item 18,vegetables,1182,1313,24.27,0.0,28687.14,cool,monsoon,high,0,1,Independence Day
+2021-08-26,DMart,HAP008,Home Appliance 8,home_appliances,4,4,29700.1,0.46,118800.4,cold,monsoon,medium,0,0,
+2021-08-27,DMart,BEV016,Beverage Item 16,beverages,69,69,202.34,8.54,13961.46,hot,monsoon,medium,0,0,
+2021-08-29,DMart,TRA007,Travel Item 7,travel_accessories,8,8,1357.43,7.26,10859.44,rainy,monsoon,low,0,0,
+2021-09-02,DMart,BEV010,Beverage Item 10,beverages,65,74,233.86,0.0,15200.9,humid,monsoon,medium,0,0,
+2021-09-02,DMart,VEG003,Veg Item 3,vegetables,438,527,33.89,8.86,14843.82,humid,monsoon,medium,0,0,
+2021-09-03,DMart,HAP004,Home Appliance 4,home_appliances,3,3,28663.88,17.63,85991.64,stormy,monsoon,medium,0,0,
+2021-09-09,DMart,FTW002,Footwear Item 2,footwear,15,18,1717.04,3.79,25755.6,rainy,monsoon,high,0,1,Ganesh Chaturthi
+2021-09-13,DMart,HAP004,Home Appliance 4,home_appliances,10,11,35164.28,0.0,351642.8,hot,monsoon,high,0,0,
+2021-09-16,DMart,BEV012,Beverage Item 12,beverages,712,756,34.59,10.27,24628.08,sunny,monsoon,medium,0,0,Ganesh Chaturthi
+2021-09-17,DMart,BEV016,Beverage Item 16,beverages,121,140,202.37,12.63,24486.77,sunny,monsoon,medium,0,0,Ganesh Chaturthi
+2021-09-18,DMart,SWT005,Sweets Item 5,sweets,88,104,195.62,0.0,17214.56,cool,monsoon,low,0,1,
+2021-09-25,DMart,GROC008,Groceries Item 8,groceries,192,231,51.48,6.19,9884.16,hot,monsoon,low,0,0,
+2021-09-28,DMart,BEV012,Beverage Item 12,beverages,448,539,34.84,6.16,15608.32,sunny,monsoon,medium,0,0,
+2021-10-03,DMart,STA006,Stationery Item 6,stationery,36,37,648.76,9.87,23355.36,hot,autumn,medium,0,0,Dussehra
+2021-10-05,DMart,CLO002,Clothing Item 2,clothing,14,18,2619.22,1.78,36669.08,sunny,autumn,high,1,0,
+2021-10-08,DMart,SWT005,Sweets Item 5,sweets,143,148,175.68,7.05,25122.24,humid,autumn,medium,0,0,Dussehra
+2021-10-13,DMart,BEA010,Beauty Item 10,beauty,34,39,239.73,8.46,8150.82,sunny,autumn,low,0,0,
+2021-10-14,DMart,STA014,Stationery Item 14,stationery,38,40,443.14,3.07,16839.32,stormy,autumn,medium,0,0,
+2021-10-23,DMart,TRA009,Travel Item 9,travel_accessories,2,3,3897.47,18.39,7794.94,sunny,autumn,low,0,1,
+2021-10-27,DMart,STA013,Stationery Item 13,stationery,35,44,427.1,12.41,14948.5,stormy,autumn,medium,0,0,
+2021-11-01,DMart,CLO001,Clothing Item 1,clothing,12,15,1234.54,0.0,14814.48,cool,autumn,medium,1,0,
+2021-11-07,DMart,CLO014,Clothing Item 14,clothing,58,73,461.37,1.93,26759.46,sunny,autumn,medium,1,0,
+2021-11-10,DMart,CLO022,Clothing Item 22,clothing,4,5,2576.02,17.25,10304.08,cool,autumn,medium,0,0,
+2021-11-18,DMart,HTX009,Home Textile 9,home_textiles,3,4,3799.55,19.43,11398.65,rainy,autumn,low,0,0,
+2021-11-26,DMart,HAP011,Home Appliance 11,home_appliances,2,3,39898.18,0.0,79796.36,cold,autumn,medium,0,0,
+2021-12-12,DMart,MAK001,Makeup Item 1,makeup,10,10,2299.03,18.97,22990.3,hot,winter,high,0,0,
+2021-12-13,DMart,SWT006,Sweets Item 6,sweets,166,212,95.5,0.0,15853.0,humid,winter,medium,0,0,
+2021-12-21,DMart,CLO010,Clothing Item 10,clothing,18,19,1220.21,1.88,21963.78,rainy,winter,medium,0,0,Christmas
+2021-12-22,DMart,HTX004,Home Textile 4,home_textiles,37,47,1046.7,7.37,38727.9,rainy,winter,high,1,0,Christmas
+2021-12-26,DMart,SWT010,Sweets Item 10,sweets,26,32,602.52,3.11,15665.52,hot,winter,medium,0,0,
+2022-01-01,DMart,BEV016,Beverage Item 16,beverages,135,163,193.13,10.3,26072.55,sunny,winter,medium,0,0,New Year
+2022-01-04,DMart,STA012,Stationery Item 12,stationery,88,110,239.73,0.0,21096.24,cold,winter,medium,0,0,New Year
+2022-01-04,DMart,HTX006,Home Textile 6,home_textiles,4,4,5905.23,0.0,23620.92,hot,winter,medium,0,0,
+2022-01-14,DMart,SWT001,Sweets Item 1,sweets,156,159,193.59,4.1,30200.04,stormy,winter,high,1,0,New Year
+2022-01-14,DMart,TRA005,Travel Item 5,travel_accessories,4,5,2214.39,4.26,8857.56,cold,winter,medium,0,0,New Year
+2022-01-25,DMart,BEV007,Beverage Item 7,beverages,164,213,159.8,4.28,26207.2,cool,winter,medium,0,0,New Year
+2022-01-28,DMart,BEV017,Beverage Item 17,beverages,79,89,192.95,3.86,15243.05,humid,winter,medium,0,0,
+2022-02-17,DMart,VEG002,Veg Item 2,vegetables,228,254,39.44,17.94,8992.32,stormy,winter,low,0,0,
+2022-02-21,DMart,ELE005,Electronics Item 5,electronics,1,1,30126.77,5.41,30126.77,stormy,winter,high,1,0,Valentine's Day
+2022-02-23,DMart,TOY004,Toy 4,toys,68,79,275.71,0.0,18748.28,cold,winter,medium,0,0,Valentine's Day
+2022-02-24,DMart,FTW001,Footwear Item 1,footwear,9,11,838.42,22.92,7545.78,rainy,winter,low,0,0,
+2022-02-27,DMart,GROC017,Groceries Item 17,groceries,111,126,94.75,10.08,10517.25,sunny,winter,low,0,0,
+2022-03-02,DMart,BEV015,Beverage Item 15,beverages,94,98,145.65,0.0,13691.1,sunny,summer,medium,0,0,
+2022-03-06,DMart,ELE023,Electronics Item 23,electronics,5,6,42640.79,6.66,213203.95,cold,summer,medium,1,0,
+2022-03-07,DMart,MAK007,Makeup Item 7,makeup,10,13,2508.26,4.08,25082.6,stormy,summer,medium,0,0,Holi
+2022-03-18,DMart,CLO007,Clothing Item 7,clothing,12,15,910.66,2.47,10927.92,humid,summer,medium,0,0,
+2022-03-21,DMart,BEV010,Beverage Item 10,beverages,54,59,234.68,4.42,12672.72,cold,summer,medium,0,0,
+2022-03-23,DMart,GROC001,Groceries Item 1,groceries,65,68,238.71,11.3,15516.15,stormy,summer,medium,1,0,
+2022-03-26,DMart,BEV005,Beverage Item 5,beverages,354,407,45.39,8.52,16068.06,humid,summer,medium,0,0,
+2022-03-27,DMart,CLO014,Clothing Item 14,clothing,69,83,392.66,13.67,27093.54,humid,summer,medium,0,0,Holi
+2022-03-28,DMart,GROC009,Groceries Item 9,groceries,128,146,185.26,1.92,23713.28,hot,summer,high,1,0,Holi
+2022-04-13,DMart,BEV004,Beverage Item 4,beverages,364,464,71.88,0.0,26164.32,hot,summer,medium,0,0,Ram Navami
+2022-04-16,DMart,CLO015,Clothing Item 15,clothing,106,121,259.75,24.45,27533.5,cold,summer,medium,1,0,
+2022-04-27,DMart,BEV018,Beverage Item 18,beverages,100,114,251.18,14.78,25118.0,cool,summer,medium,0,0,Ram Navami
+2022-05-01,DMart,BEV017,Beverage Item 17,beverages,85,96,170.89,9.83,14525.65,rainy,summer,medium,0,0,
+2022-05-10,DMart,BEA005,Beauty Item 5,beauty,2,2,2167.61,0.0,4335.22,cold,summer,low,0,0,
+2022-05-10,DMart,BEA003,Beauty Item 3,beauty,8,10,1989.42,13.26,15915.36,humid,summer,high,0,0,
+2022-05-12,DMart,BEV007,Beverage Item 7,beverages,98,105,163.01,5.32,15974.98,humid,summer,medium,0,0,
+2022-05-14,DMart,TRA001,Travel Item 1,travel_accessories,23,24,1755.27,0.0,40371.21,hot,summer,high,1,0,
+2022-05-16,DMart,MAK003,Makeup Item 3,makeup,39,50,227.45,0.0,8870.55,sunny,summer,low,0,0,
+2022-05-18,DMart,BEV002,Beverage Item 2,beverages,235,286,67.87,12.59,15949.45,cold,summer,medium,0,0,
+2022-05-23,DMart,ELE002,Electronics Item 2,electronics,4,5,11041.18,5.42,44164.72,humid,summer,medium,1,0,
+2022-05-25,DMart,CLO003,Clothing Item 3,clothing,18,19,1431.01,0.0,25758.18,rainy,summer,medium,1,0,
+2022-05-26,DMart,VEG001,Veg Item 1,vegetables,198,241,49.24,5.41,9749.52,stormy,summer,low,0,0,
+2022-06-05,DMart,VEG008,Veg Item 8,vegetables,561,723,37.93,5.01,21278.73,stormy,monsoon,medium,0,1,
+2022-06-11,DMart,BEA002,Beauty Item 2,beauty,179,189,99.62,0.0,17831.98,cool,monsoon,low,0,1,
+2022-06-15,DMart,FTW001,Footwear Item 1,footwear,12,13,1005.54,5.9,12066.48,sunny,monsoon,medium,0,0,
+2022-06-17,DMart,VEG013,Veg Item 13,vegetables,749,973,19.53,8.91,14627.97,humid,monsoon,medium,0,0,
+2022-06-22,DMart,FTW003,Footwear Item 3,footwear,38,41,455.26,12.22,17299.88,stormy,monsoon,medium,0,0,
+2022-06-26,DMart,ELE014,Electronics Item 14,electronics,4,4,34888.06,3.19,139552.24,humid,monsoon,medium,1,0,
+2022-06-30,DMart,FTW003,Footwear Item 3,footwear,31,40,516.9,0.0,16023.9,sunny,monsoon,medium,0,0,
+2022-07-02,DMart,GROC021,Groceries Item 21,groceries,69,71,306.76,3.33,21166.44,humid,monsoon,medium,0,0,Back-to-school
+2022-07-07,DMart,VEG005,Veg Item 5,vegetables,893,1159,26.19,8.9,23387.67,rainy,monsoon,medium,0,0,Back-to-school
+2022-07-09,DMart,VEG018,Veg Item 18,vegetables,1112,1353,21.41,11.53,23807.92,sunny,monsoon,medium,1,0,
+2022-07-09,DMart,ELE003,Electronics Item 3,electronics,2,3,11828.5,9.59,23657.0,rainy,monsoon,low,0,0,
+2022-07-13,DMart,HAP008,Home Appliance 8,home_appliances,6,6,30047.71,0.21,180286.26,cool,monsoon,medium,0,0,Back-to-school
+2022-07-20,DMart,HAP005,Home Appliance 5,home_appliances,3,4,16513.05,5.0,49539.15,stormy,monsoon,medium,0,0,Back-to-school
+2022-07-21,DMart,VEG017,Veg Item 17,vegetables,1066,1076,13.89,5.34,14806.74,rainy,monsoon,medium,0,0,
+2022-08-02,DMart,BEV020,Beverage Item 20,beverages,184,238,121.51,0.0,22357.84,rainy,monsoon,medium,0,1,
+2022-08-05,DMart,TRA009,Travel Item 9,travel_accessories,2,3,3781.4,16.16,7562.8,rainy,monsoon,low,0,0,
+2022-08-06,DMart,VEG013,Veg Item 13,vegetables,812,904,20.22,3.91,16418.64,sunny,monsoon,medium,0,0,
+2022-08-14,DMart,FTW001,Footwear Item 1,footwear,19,19,1086.68,0.0,20646.92,stormy,monsoon,medium,1,0,
+2022-08-18,DMart,BEV019,Beverage Item 19,beverages,754,872,34.78,11.09,26224.12,cold,monsoon,medium,0,0,Independence Day
+2022-08-20,DMart,FTW008,Footwear Item 8,footwear,6,7,1908.71,0.0,11452.26,cold,monsoon,medium,0,0,
+2022-08-27,DMart,HAP007,Home Appliance 7,home_appliances,4,5,21763.29,0.0,87053.16,sunny,monsoon,medium,0,0,Independence Day
+2022-09-04,DMart,TOY008,Toy 8,toys,14,14,843.84,4.03,11813.76,stormy,monsoon,medium,1,0,
+2022-09-04,DMart,SWT005,Sweets Item 5,sweets,101,108,188.04,0.0,18992.04,rainy,monsoon,medium,0,0,Ganesh Chaturthi
+2022-09-06,DMart,FTW005,Footwear Item 5,footwear,3,4,3763.88,4.5,11291.64,cool,monsoon,medium,0,0,Ganesh Chaturthi
+2022-09-09,DMart,ELE002,Electronics Item 2,electronics,3,4,9389.09,9.55,28167.27,cool,monsoon,low,0,0,
+2022-09-11,DMart,HAP005,Home Appliance 5,home_appliances,10,10,16107.07,8.7,161070.7,humid,monsoon,high,0,0,Ganesh Chaturthi
+2022-09-15,DMart,BEV016,Beverage Item 16,beverages,112,139,226.3,0.0,25345.6,cold,monsoon,medium,1,0,
+2022-09-21,DMart,BEV006,Beverage Item 6,beverages,52,67,273.77,0.0,14236.04,cold,monsoon,medium,0,0,
+2022-09-23,DMart,STA006,Stationery Item 6,stationery,20,23,670.62,0.0,13412.4,humid,monsoon,low,0,1,
+2022-09-25,DMart,FTW009,Footwear Item 9,footwear,7,7,1629.7,11.22,11407.9,humid,monsoon,medium,0,0,
+2022-09-26,DMart,BEV002,Beverage Item 2,beverages,206,261,74.14,5.52,15272.84,sunny,monsoon,medium,0,0,
+2022-09-27,DMart,HAP012,Home Appliance 12,home_appliances,4,5,22599.88,10.69,90399.52,sunny,monsoon,medium,0,0,
+2022-09-29,DMart,FTW006,Footwear Item 6,footwear,31,37,1234.51,9.52,38269.81,cool,monsoon,high,1,0,Ganesh Chaturthi
+2022-10-02,DMart,VEG008,Veg Item 8,vegetables,314,355,34.52,12.2,10839.28,humid,autumn,low,0,0,
+2022-10-05,DMart,MAK001,Makeup Item 1,makeup,4,4,2490.33,3.36,9961.32,stormy,autumn,medium,0,0,
+2022-10-09,DMart,CLO014,Clothing Item 14,clothing,35,35,412.84,5.54,14449.4,sunny,autumn,medium,0,0,
+2022-10-09,DMart,SWT004,Sweets Item 4,sweets,144,150,180.41,7.8,25979.04,hot,autumn,medium,1,0,
+2022-10-13,DMart,CLO015,Clothing Item 15,clothing,62,69,269.98,18.75,16738.76,cool,autumn,medium,0,0,
+2022-10-13,DMart,SWT004,Sweets Item 4,sweets,78,87,197.72,1.71,15422.16,cold,autumn,medium,0,0,
+2022-10-17,DMart,GROC007,Groceries Item 7,groceries,62,62,325.44,6.37,20177.28,sunny,autumn,medium,0,0,Dussehra
+2022-10-19,DMart,TRA001,Travel Item 1,travel_accessories,11,11,1716.62,4.24,18882.82,humid,autumn,medium,0,0,Dussehra
+2022-10-25,DMart,TOY007,Toy 7,toys,88,90,300.36,8.11,26431.68,humid,autumn,high,1,0,Dussehra
+2022-10-26,DMart,STA004,Stationery Item 4,stationery,52,64,330.15,12.87,17167.8,hot,autumn,medium,0,0,
+2022-10-30,DMart,MAK005,Makeup Item 5,makeup,7,9,2619.44,0.0,18336.08,sunny,autumn,medium,1,0,
+2022-10-31,DMart,STA014,Stationery Item 14,stationery,27,29,482.01,0.0,13014.27,sunny,autumn,medium,0,0,
+2022-11-09,DMart,STA001,Stationery Item 1,stationery,28,32,398.25,23.01,11151.0,rainy,autumn,medium,0,0,
+2022-11-15,DMart,HAP015,Home Appliance 15,home_appliances,5,6,4540.9,17.09,22704.5,rainy,autumn,medium,0,0,
+2022-11-24,DMart,SWT010,Sweets Item 10,sweets,36,39,536.71,5.72,19321.56,cold,autumn,medium,0,0,
+2022-11-27,DMart,HAP006,Home Appliance 6,home_appliances,4,5,7773.22,12.75,31092.88,sunny,autumn,medium,0,0,Diwali
+2022-12-01,DMart,BEV020,Beverage Item 20,beverages,226,252,115.78,0.96,26166.28,stormy,winter,medium,0,0,Christmas
+2022-12-04,DMart,BEV020,Beverage Item 20,beverages,133,146,123.89,3.39,16477.37,humid,winter,medium,0,0,
+2022-12-05,DMart,HTX008,Home Textile 8,home_textiles,8,9,2877.57,15.57,23020.56,cold,winter,medium,1,0,
+2022-12-08,DMart,BEA002,Beauty Item 2,beauty,86,103,96.89,3.33,8332.54,stormy,winter,low,0,0,
+2022-12-17,DMart,SWT003,Sweets Item 3,sweets,49,60,428.06,0.0,20974.94,sunny,winter,medium,0,0,Christmas
+2022-12-19,DMart,CLO003,Clothing Item 3,clothing,13,16,1418.14,5.61,18435.82,rainy,winter,high,0,1,Christmas
+2022-12-19,DMart,BEV007,Beverage Item 7,beverages,174,200,155.6,13.52,27074.4,stormy,winter,medium,0,0,Christmas
+2022-12-19,DMart,CLO004,Clothing Item 4,clothing,34,41,860.17,5.41,29245.78,humid,winter,medium,1,0,
+2022-12-22,DMart,HAP010,Home Appliance 10,home_appliances,3,3,13321.25,0.0,39963.75,rainy,winter,low,0,0,
+2022-12-23,DMart,TOY006,Toy 6,toys,55,64,161.67,7.89,8891.85,humid,winter,low,0,0,
+2022-12-23,DMart,CLO007,Clothing Item 7,clothing,21,27,873.47,9.07,18342.87,sunny,winter,medium,0,0,
+2022-12-24,DMart,STA008,Stationery Item 8,stationery,49,53,367.94,12.33,18029.06,hot,winter,medium,0,0,Christmas
+2022-12-28,DMart,CLO029,Clothing Item 29,clothing,11,13,1620.98,4.21,17830.78,stormy,winter,medium,0,0,Christmas
+2023-01-04,DMart,HAP001,Home Appliance 1,home_appliances,2,2,19206.24,1.75,38412.48,cold,winter,low,0,0,
+2023-01-11,DMart,BEV017,Beverage Item 17,beverages,78,97,201.54,0.0,15720.12,cool,winter,medium,0,0,
+2023-01-14,DMart,SWT001,Sweets Item 1,sweets,145,188,195.34,3.64,28324.3,cool,winter,high,1,1,
+2023-01-17,DMart,BEV003,Beverage Item 3,beverages,112,143,159.21,21.82,17831.52,hot,winter,medium,0,0,
+2023-01-20,DMart,HAP010,Home Appliance 10,home_appliances,3,4,13372.59,1.55,40117.77,hot,winter,medium,0,0,New Year
+2023-01-20,DMart,HTX002,Home Textile 2,home_textiles,4,4,3381.43,2.1,13525.72,cold,winter,medium,1,0,
+2023-01-22,DMart,CLO011,Clothing Item 11,clothing,14,14,731.32,6.19,10238.48,cold,winter,medium,0,0,
+2023-01-28,DMart,HTX009,Home Textile 9,home_textiles,4,5,4177.44,7.86,16709.76,cold,winter,medium,0,0,
+2023-01-29,DMart,SWT002,Sweets Item 2,sweets,96,115,241.85,10.13,23217.6,rainy,winter,medium,0,0,New Year
+2023-02-05,DMart,BEV008,Beverage Item 8,beverages,154,191,143.9,0.0,22160.6,humid,winter,medium,0,0,Valentine's Day
+2023-02-06,DMart,FTW007,Footwear Item 7,footwear,4,5,2913.85,3.15,11655.4,hot,winter,low,0,0,
+2023-02-07,DMart,HAP007,Home Appliance 7,home_appliances,8,9,21193.59,3.58,169548.72,hot,winter,high,0,0,Valentine's Day
+2023-02-09,DMart,SWT010,Sweets Item 10,sweets,56,69,600.94,0.0,33652.64,rainy,winter,high,1,0,Valentine's Day
+2023-02-13,DMart,GROC002,Groceries Item 2,groceries,639,737,29.56,0.0,18888.84,hot,winter,medium,0,0,Valentine's Day
+2023-02-15,DMart,STA012,Stationery Item 12,stationery,80,91,249.39,0.79,19951.2,rainy,winter,medium,0,0,Valentine's Day
+2023-02-16,DMart,HTX002,Home Textile 2,home_textiles,6,6,3210.3,0.0,19261.8,hot,winter,medium,1,0,
+2023-02-17,DMart,BEV009,Beverage Item 9,beverages,116,127,227.85,8.42,26430.6,cool,winter,medium,1,0,
+2023-02-19,DMart,HTX005,Home Textile 5,home_textiles,5,6,1932.86,1.62,9664.3,cold,winter,medium,0,0,
+2023-02-28,DMart,GROC002,Groceries Item 2,groceries,619,671,30.1,0.0,18631.9,sunny,winter,medium,0,0,Valentine's Day
+2023-03-04,DMart,BEV014,Beverage Item 14,beverages,128,163,124.36,1.45,15918.08,cool,summer,medium,0,0,
+2023-03-05,DMart,VEG015,Veg Item 15,vegetables,863,1118,10.72,20.31,9251.36,sunny,summer,low,0,0,
+2023-03-08,DMart,BEA007,Beauty Item 7,beauty,58,64,194.63,0.0,11288.54,stormy,summer,low,0,0,
+2023-03-10,DMart,BEV014,Beverage Item 14,beverages,132,145,121.04,8.77,15977.28,cold,summer,medium,0,0,
+2023-03-13,DMart,CLO008,Clothing Item 8,clothing,4,4,1726.46,9.32,6905.84,cold,summer,medium,0,0,
+2023-03-16,DMart,SWT010,Sweets Item 10,sweets,36,42,639.66,0.63,23027.76,humid,summer,medium,0,0,Holi
+2023-03-21,DMart,GROC018,Groceries Item 18,groceries,64,70,247.59,0.0,15845.76,stormy,summer,medium,0,0,Holi
+2023-03-26,DMart,CLO009,Clothing Item 9,clothing,4,5,2468.79,12.82,9875.16,cold,summer,medium,0,0,
+2023-03-28,DMart,BEV016,Beverage Item 16,beverages,106,118,216.84,0.0,22985.04,rainy,summer,medium,0,0,Holi
+2023-04-07,DMart,HTX010,Home Textile 10,home_textiles,31,32,536.43,5.49,16629.33,humid,summer,medium,0,0,Ram Navami
+2023-04-11,DMart,MAK006,Makeup Item 6,makeup,4,4,2872.99,0.0,11491.96,humid,summer,low,0,0,
+2023-04-20,DMart,CLO023,Clothing Item 23,clothing,10,12,1643.31,1.95,16433.1,cool,summer,medium,0,0,Ram Navami
+2023-04-26,DMart,CLO002,Clothing Item 2,clothing,5,6,2527.91,6.31,12639.55,humid,summer,medium,0,0,
+2023-04-28,DMart,BEA009,Beauty Item 9,beauty,2,2,2133.42,7.35,4266.84,humid,summer,low,0,0,
+2023-05-02,DMart,TRA003,Travel Item 3,travel_accessories,9,11,1184.76,2.47,10662.84,stormy,summer,medium,0,0,
+2023-05-08,DMart,BEV007,Beverage Item 7,beverages,73,91,178.57,0.0,13035.61,humid,summer,medium,0,0,
+2023-05-11,DMart,CLO019,Clothing Item 19,clothing,10,12,1264.43,8.31,12644.3,sunny,summer,medium,0,0,
+2023-05-13,DMart,TRA006,Travel Item 6,travel_accessories,9,10,1975.49,10.84,17779.41,rainy,summer,medium,0,0,
+2023-05-15,DMart,CLO026,Clothing Item 26,clothing,85,104,204.57,11.8,17388.45,cool,summer,medium,0,0,
+2023-05-17,DMart,TRA007,Travel Item 7,travel_accessories,13,14,1364.91,10.72,17743.83,humid,summer,medium,0,0,
+2023-05-20,DMart,ELE023,Electronics Item 23,electronics,2,2,43282.77,1.32,86565.54,hot,summer,medium,0,0,
+2023-05-23,DMart,ELE025,Electronics Item 25,electronics,4,5,30869.07,6.84,123476.28,cold,summer,medium,0,0,
+2023-05-24,DMart,CLO027,Clothing Item 27,clothing,10,13,2227.73,0.0,22277.3,stormy,summer,medium,0,0,
+2023-05-29,DMart,GROC004,Groceries Item 4,groceries,103,106,105.74,1.74,10891.22,cold,summer,low,0,0,
+2023-05-29,DMart,BEV015,Beverage Item 15,beverages,191,233,124.37,15.39,23754.67,sunny,summer,medium,1,0,
+2023-05-30,DMart,BEV002,Beverage Item 2,beverages,195,229,80.13,1.15,15625.35,sunny,summer,medium,0,0,
+2023-06-04,DMart,BEV017,Beverage Item 17,beverages,100,115,171.56,13.65,17156.0,rainy,monsoon,medium,0,0,
+2023-06-04,DMart,HAP004,Home Appliance 4,home_appliances,2,2,33727.38,1.79,67454.76,cool,monsoon,medium,0,0,
+2023-06-08,DMart,VEG003,Veg Item 3,vegetables,468,594,33.28,6.28,15575.04,hot,monsoon,medium,0,0,
+2023-06-09,DMart,TRA010,Travel Item 10,travel_accessories,1,2,2090.83,9.59,2090.83,cool,monsoon,low,0,0,
+2023-06-13,DMart,HAP004,Home Appliance 4,home_appliances,0,1,32922.47,7.51,0.0,sunny,monsoon,medium,0,0,
+2023-06-16,DMart,BEV017,Beverage Item 17,beverages,81,92,202.38,4.22,16392.78,cold,monsoon,medium,0,0,
+2023-06-20,DMart,BEV016,Beverage Item 16,beverages,62,62,213.62,1.22,13244.44,humid,monsoon,medium,0,0,
+2023-06-25,DMart,HAP014,Home Appliance 14,home_appliances,8,8,20772.81,4.89,166182.48,sunny,monsoon,high,0,1,
+2023-06-28,DMart,BEV006,Beverage Item 6,beverages,68,76,241.94,15.59,16451.92,cool,monsoon,medium,0,0,
+2023-07-01,DMart,HAP010,Home Appliance 10,home_appliances,6,7,11590.08,5.99,69540.48,cool,monsoon,medium,0,0,
+2023-07-08,DMart,BEA003,Beauty Item 3,beauty,7,7,2317.51,0.0,16222.57,stormy,monsoon,high,0,0,
+2023-07-09,DMart,MAK010,Makeup Item 10,makeup,7,8,1577.38,0.0,11041.66,cool,monsoon,low,0,0,
+2023-07-10,DMart,VEG018,Veg Item 18,vegetables,1030,1090,22.76,0.0,23442.8,cold,monsoon,medium,0,0,Back-to-school
+2023-07-16,DMart,FTW002,Footwear Item 2,footwear,16,19,1630.85,10.6,26093.6,cold,monsoon,medium,1,0,
+2023-07-19,DMart,FTW007,Footwear Item 7,footwear,3,3,3018.96,1.26,9056.88,rainy,monsoon,medium,0,0,
+2023-07-19,DMart,HAP014,Home Appliance 14,home_appliances,3,4,19230.52,7.04,57691.56,rainy,monsoon,medium,0,0,
+2023-07-23,DMart,FTW007,Footwear Item 7,footwear,11,11,3150.23,0.0,34652.53,hot,monsoon,high,0,0,Back-to-school
+2023-08-02,DMart,SWT010,Sweets Item 10,sweets,22,27,586.79,4.55,12909.38,rainy,monsoon,low,0,0,
+2023-08-12,DMart,FTW003,Footwear Item 3,footwear,27,27,494.28,6.87,13345.56,sunny,monsoon,medium,0,0,
+2023-08-13,DMart,HAP015,Home Appliance 15,home_appliances,5,6,5590.98,1.44,27954.9,stormy,monsoon,medium,0,0,Raksha Bandhan
+2023-08-24,DMart,FTW010,Footwear Item 10,footwear,7,8,3845.56,0.0,26918.92,cool,monsoon,high,0,0,
+2023-08-29,DMart,FTW005,Footwear Item 5,footwear,5,5,3786.15,6.79,18930.75,cold,monsoon,medium,0,0,
+2023-08-31,DMart,TOY005,Toy 5,toys,12,15,1350.59,6.99,16207.08,humid,monsoon,medium,0,0,Independence Day
+2023-09-02,DMart,FTW004,Footwear Item 4,footwear,26,26,1807.42,0.0,46992.92,humid,monsoon,high,1,1,Ganesh Chaturthi
+2023-09-06,DMart,HAP009,Home Appliance 9,home_appliances,2,2,8659.2,0.44,17318.4,stormy,monsoon,medium,0,0,
+2023-09-14,DMart,BEV012,Beverage Item 12,beverages,697,768,36.89,0.4,25712.33,stormy,monsoon,medium,0,0,Ganesh Chaturthi
+2023-09-16,DMart,HTX007,Home Textile 7,home_textiles,8,10,2615.08,23.51,20920.64,cold,monsoon,medium,1,0,
+2023-09-17,DMart,BEV015,Beverage Item 15,beverages,95,115,142.41,3.68,13528.95,humid,monsoon,medium,0,0,
+2023-09-18,DMart,MAK003,Makeup Item 3,makeup,117,121,217.34,6.16,25428.78,hot,monsoon,high,1,0,Ganesh Chaturthi
+2023-09-22,DMart,VEG017,Veg Item 17,vegetables,998,1017,14.5,1.29,14471.0,cold,monsoon,medium,0,0,
+2023-09-28,DMart,HTX007,Home Textile 7,home_textiles,4,5,3244.35,8.83,12977.4,humid,monsoon,low,0,0,
+2023-10-04,DMart,BEV007,Beverage Item 7,beverages,122,150,172.33,0.71,21024.26,sunny,autumn,medium,0,0,Dussehra
+2023-10-07,DMart,CLO009,Clothing Item 9,clothing,7,7,2452.48,12.74,17167.36,rainy,autumn,medium,0,0,
+2023-10-08,DMart,ELE021,Electronics Item 21,electronics,2,2,11110.43,0.0,22220.86,cold,autumn,low,0,0,
+2023-10-09,DMart,CLO022,Clothing Item 22,clothing,2,2,2667.82,11.32,5335.64,rainy,autumn,medium,0,0,
+2023-10-14,DMart,MAK010,Makeup Item 10,makeup,14,14,1479.79,0.0,20717.06,rainy,autumn,medium,0,0,
+2023-10-26,DMart,HAP015,Home Appliance 15,home_appliances,10,11,5314.67,2.21,53146.7,humid,autumn,high,0,0,Dussehra
+2023-10-27,DMart,MAK001,Makeup Item 1,makeup,8,10,2193.13,11.92,17545.04,rainy,autumn,medium,0,0,
+2023-10-29,DMart,CLO014,Clothing Item 14,clothing,30,34,459.99,0.6,13799.7,cold,autumn,medium,0,0,
+2023-11-05,DMart,HTX010,Home Textile 10,home_textiles,45,47,581.94,0.0,26187.3,cool,autumn,medium,1,1,
+2023-11-09,DMart,BEA006,Beauty Item 6,beauty,14,14,767.0,7.04,10738.0,humid,autumn,low,0,0,
+2023-11-16,DMart,TOY010,Toy 10,toys,42,49,332.91,18.17,13982.22,rainy,autumn,low,0,1,
+2023-11-23,DMart,MAK006,Makeup Item 6,makeup,10,12,2863.29,0.0,28632.9,humid,autumn,medium,0,0,Diwali
+2023-11-30,DMart,ELE003,Electronics Item 3,electronics,0,1,11689.16,16.95,0.0,cold,autumn,medium,0,0,Diwali
+2023-12-03,DMart,TRA009,Travel Item 9,travel_accessories,1,1,4404.42,5.19,4404.42,humid,winter,low,0,1,
+2023-12-04,DMart,CLO028,Clothing Item 28,clothing,14,15,1926.98,10.22,26977.72,rainy,winter,medium,0,0,Christmas
+2023-12-09,DMart,SWT002,Sweets Item 2,sweets,80,93,272.22,0.84,21777.6,hot,winter,medium,0,0,Christmas
+2023-12-11,DMart,SWT002,Sweets Item 2,sweets,86,105,245.73,11.83,21132.78,cold,winter,medium,0,0,Christmas
+2023-12-12,DMart,HTX002,Home Textile 2,home_textiles,7,9,3523.91,0.34,24667.37,rainy,winter,high,0,0,
+2023-12-19,DMart,GROC015,Groceries Item 15,groceries,37,46,244.61,12.42,9050.57,rainy,winter,low,0,0,
+2023-12-24,DMart,HTX001,Home Textile 1,home_textiles,3,4,5487.42,7.64,16462.26,rainy,winter,medium,0,0,
+2024-01-05,DMart,CLO022,Clothing Item 22,clothing,4,5,2803.47,10.19,11213.88,stormy,winter,medium,0,0,
+2024-01-18,DMart,TOY006,Toy 6,toys,63,69,144.39,10.78,9096.57,hot,winter,low,0,0,
+2024-01-23,DMart,VEG003,Veg Item 3,vegetables,253,328,36.17,3.14,9151.01,hot,winter,low,0,0,
+2024-01-31,DMart,SWT007,Sweets Item 7,sweets,31,36,440.46,4.38,13654.26,sunny,winter,medium,0,0,
+2024-02-02,DMart,MAK003,Makeup Item 3,makeup,86,90,209.94,3.9,18054.84,stormy,winter,medium,0,0,Valentine's Day
+2024-02-19,DMart,CLO002,Clothing Item 2,clothing,7,9,2865.3,0.0,20057.1,hot,winter,medium,0,0,Valentine's Day
+2024-02-20,DMart,HTX009,Home Textile 9,home_textiles,3,3,4554.74,3.47,13664.22,rainy,winter,medium,0,1,
+2024-02-21,DMart,BEV003,Beverage Item 3,beverages,65,79,188.23,4.87,12234.95,sunny,winter,medium,0,0,
+2024-02-22,DMart,SWT010,Sweets Item 10,sweets,23,29,630.51,0.0,14501.73,stormy,winter,medium,0,0,
+2024-02-26,DMart,SWT005,Sweets Item 5,sweets,208,218,180.01,4.42,37442.08,rainy,winter,high,1,1,Valentine's Day
+2024-03-17,DMart,TRA001,Travel Item 1,travel_accessories,18,21,1802.06,3.66,32437.08,sunny,summer,high,1,0,Holi
+2024-04-01,DMart,ELE012,Electronics Item 12,electronics,5,5,31621.02,4.38,158105.1,hot,summer,medium,0,0,
+2024-04-01,DMart,CLO013,Clothing Item 13,clothing,6,6,1635.62,0.0,9813.72,humid,summer,medium,0,0,
+2024-04-01,DMart,STA003,Stationery Item 3,stationery,71,77,301.78,12.35,21426.38,stormy,summer,medium,0,0,Ram Navami
+2024-04-01,DMart,BEV009,Beverage Item 9,beverages,85,107,245.69,0.0,20883.65,hot,summer,medium,0,0,Ram Navami
+2024-04-07,DMart,BEV002,Beverage Item 2,beverages,217,277,73.46,6.5,15940.82,cold,summer,medium,0,0,
+2024-04-07,DMart,HTX008,Home Textile 8,home_textiles,3,4,3007.84,8.67,9023.52,cool,summer,medium,0,0,Ram Navami
+2024-04-15,DMart,BEV014,Beverage Item 14,beverages,129,151,123.74,4.1,15962.46,sunny,summer,medium,0,0,
+2024-04-17,DMart,VEG004,Veg Item 4,vegetables,146,167,57.6,0.0,8409.6,rainy,summer,low,0,0,
+2024-04-21,DMart,TRA007,Travel Item 7,travel_accessories,20,21,1376.53,6.71,27530.6,humid,summer,medium,0,0,Ram Navami
+2024-04-26,DMart,ELE006,Electronics Item 6,electronics,4,4,30514.93,0.0,122059.72,stormy,summer,medium,0,0,
+2024-05-11,DMart,BEV015,Beverage Item 15,beverages,96,109,139.63,0.0,13404.48,hot,summer,medium,0,0,
+2024-05-14,DMart,TRA007,Travel Item 7,travel_accessories,11,12,1319.06,10.23,14509.66,sunny,summer,medium,0,0,
+2024-05-16,DMart,BEV011,Beverage Item 11,beverages,239,273,63.83,0.0,15255.37,stormy,summer,medium,0,0,
+2024-06-01,DMart,SWT004,Sweets Item 4,sweets,120,127,191.79,5.4,23014.8,cool,monsoon,medium,1,0,
+2024-06-09,DMart,FTW006,Footwear Item 6,footwear,14,14,1212.65,3.55,16977.1,humid,monsoon,medium,0,0,
+2024-06-12,DMart,BEV005,Beverage Item 5,beverages,349,451,44.74,6.44,15614.26,stormy,monsoon,medium,0,0,
+2024-06-20,DMart,SWT001,Sweets Item 1,sweets,94,100,168.64,9.47,15852.16,sunny,monsoon,medium,1,0,
+2024-06-24,DMart,BEV011,Beverage Item 11,beverages,259,306,57.5,11.29,14892.5,sunny,monsoon,medium,0,0,
+2024-06-25,DMart,HTX001,Home Textile 1,home_textiles,5,6,5976.56,0.0,29882.8,cool,monsoon,high,0,1,
+2024-06-29,DMart,VEG012,Veg Item 12,vegetables,2110,2418,9.94,19.17,20973.4,cool,monsoon,medium,1,0,
+2024-07-06,DMart,FTW003,Footwear Item 3,footwear,25,31,514.1,0.63,12852.5,hot,monsoon,medium,0,0,
+2024-07-06,DMart,FTW003,Footwear Item 3,footwear,39,39,461.94,5.18,18015.66,sunny,monsoon,medium,0,0,Back-to-school
+2024-07-14,DMart,VEG012,Veg Item 12,vegetables,2058,2370,10.97,10.85,22576.26,cold,monsoon,medium,1,0,
+2024-07-14,DMart,VEG016,Veg Item 16,vegetables,1128,1231,20.74,6.68,23394.72,humid,monsoon,medium,0,0,Back-to-school
+2024-07-21,DMart,VEG012,Veg Item 12,vegetables,1202,1311,12.3,1.82,14784.6,hot,monsoon,medium,0,0,
+2024-07-22,DMart,FTW008,Footwear Item 8,footwear,12,12,1865.04,8.3,22380.48,humid,monsoon,medium,0,0,Back-to-school
+2024-07-22,DMart,VEG015,Veg Item 15,vegetables,1105,1148,13.85,6.7,15304.25,cool,monsoon,medium,0,0,
+2024-07-27,DMart,FTW001,Footwear Item 1,footwear,32,40,1068.05,3.23,34177.6,hot,monsoon,medium,0,0,Back-to-school
+2024-07-30,DMart,VEG014,Veg Item 14,vegetables,726,902,21.4,7.86,15536.4,cold,monsoon,medium,0,0,
+2024-07-31,DMart,TRA002,Travel Item 2,travel_accessories,1,1,4206.64,6.71,4206.64,sunny,monsoon,low,0,0,
+2024-08-13,DMart,BEV020,Beverage Item 20,beverages,196,198,117.6,4.25,23049.6,rainy,monsoon,medium,0,0,Independence Day
+2024-08-15,DMart,VEG010,Veg Item 10,vegetables,496,528,31.15,16.4,15450.4,cold,monsoon,medium,0,0,
+2024-08-24,DMart,BEV017,Beverage Item 17,beverages,92,110,186.75,7.57,17181.0,cold,monsoon,medium,0,0,Independence Day
+2024-08-26,DMart,BEV006,Beverage Item 6,beverages,113,125,226.2,21.3,25560.6,rainy,monsoon,medium,1,0,
+2024-08-30,DMart,TRA010,Travel Item 10,travel_accessories,7,7,2326.55,0.0,16285.85,hot,monsoon,medium,0,0,Independence Day
+2024-08-31,DMart,FTW005,Footwear Item 5,footwear,9,10,3523.53,10.21,31711.77,rainy,monsoon,medium,0,0,Raksha Bandhan
+2024-09-12,DMart,VEG005,Veg Item 5,vegetables,556,626,28.96,0.0,16101.76,stormy,monsoon,medium,0,0,
+2024-09-13,DMart,HAP006,Home Appliance 6,home_appliances,4,5,8721.76,2.0,34887.04,humid,monsoon,medium,0,0,
+2024-09-16,DMart,HAP001,Home Appliance 1,home_appliances,9,11,17892.71,8.3,161034.39,cold,monsoon,medium,0,0,Ganesh Chaturthi
+2024-09-16,DMart,FTW002,Footwear Item 2,footwear,11,12,1664.75,4.57,18312.25,sunny,monsoon,medium,0,0,
+2024-09-18,DMart,HAP003,Home Appliance 3,home_appliances,6,7,11223.74,4.76,67342.44,cool,monsoon,medium,0,0,
+2024-09-22,DMart,VEG018,Veg Item 18,vegetables,619,676,23.15,3.4,14329.85,humid,monsoon,medium,0,0,
+2024-09-30,DMart,HTX009,Home Textile 9,home_textiles,4,5,3697.68,15.09,14790.72,humid,monsoon,medium,0,0,Ganesh Chaturthi
+2024-10-07,DMart,SWT004,Sweets Item 4,sweets,83,89,174.97,15.49,14522.51,sunny,autumn,medium,0,0,
+2024-10-07,DMart,SWT002,Sweets Item 2,sweets,49,54,283.57,0.27,13894.93,hot,autumn,medium,0,0,
+2024-10-08,DMart,ELE004,Electronics Item 4,electronics,0,1,44232.35,1.86,0.0,cold,autumn,low,0,0,
+2024-10-13,DMart,STA008,Stationery Item 8,stationery,39,47,390.72,6.57,15238.08,humid,autumn,medium,0,0,
+2024-10-17,DMart,SWT002,Sweets Item 2,sweets,78,83,249.61,4.91,19469.58,humid,autumn,medium,0,0,Dussehra
+2024-10-20,DMart,HAP006,Home Appliance 6,home_appliances,5,5,8638.37,12.12,43191.85,hot,autumn,medium,0,0,Dussehra
+2024-10-21,DMart,STA007,Stationery Item 7,stationery,91,116,219.84,3.51,20005.44,hot,autumn,medium,0,0,Dussehra
+2024-10-22,DMart,FTW008,Footwear Item 8,footwear,8,9,1900.55,1.14,15204.4,humid,autumn,medium,0,0,Dussehra
+2024-10-26,DMart,MAK003,Makeup Item 3,makeup,72,83,221.57,5.49,15953.04,sunny,autumn,medium,0,0,
+2024-10-26,DMart,STA002,Stationery Item 2,stationery,285,289,83.77,15.13,23874.45,stormy,autumn,medium,0,0,Dussehra
+2024-11-01,DMart,HAP010,Home Appliance 10,home_appliances,3,3,12230.47,5.69,36691.41,stormy,autumn,medium,0,0,
+2024-11-10,DMart,SWT005,Sweets Item 5,sweets,136,145,173.55,11.88,23602.8,stormy,autumn,medium,0,0,Diwali
+2024-11-14,DMart,VEG003,Veg Item 3,vegetables,284,351,35.44,5.77,10064.96,rainy,autumn,low,0,0,
+2024-11-18,DMart,HTX010,Home Textile 10,home_textiles,23,29,540.65,13.31,12434.95,rainy,autumn,medium,1,0,
+2024-11-19,DMart,HAP010,Home Appliance 10,home_appliances,9,11,10790.48,16.31,97114.32,cool,autumn,medium,0,0,Diwali
+2024-11-20,DMart,MAK006,Makeup Item 6,makeup,7,8,3017.36,0.0,21121.52,stormy,autumn,medium,0,0,
+2024-11-21,DMart,HAP004,Home Appliance 4,home_appliances,5,6,26057.83,22.99,130289.15,rainy,autumn,medium,0,0,Diwali
+2024-11-22,DMart,HAP009,Home Appliance 9,home_appliances,2,3,8240.37,3.89,16480.74,hot,autumn,medium,0,0,Diwali
+2024-11-29,DMart,HAP003,Home Appliance 3,home_appliances,6,7,11410.63,0.0,68463.78,cool,autumn,medium,0,0,
+2024-12-03,DMart,CLO024,Clothing Item 24,clothing,15,16,2726.95,4.53,40904.25,stormy,winter,high,0,0,Christmas
+2024-12-06,DMart,BEA008,Beauty Item 8,beauty,5,5,1970.24,11.41,9851.2,humid,winter,low,0,0,
+2024-12-09,DMart,TRA004,Travel Item 4,travel_accessories,10,10,924.16,11.87,9241.6,rainy,winter,low,0,0,
+2024-12-14,DMart,BEV011,Beverage Item 11,beverages,442,544,58.02,13.11,25644.84,sunny,winter,medium,0,0,Christmas
+2024-12-14,DMart,SWT005,Sweets Item 5,sweets,143,184,182.95,0.0,26161.85,humid,winter,medium,0,0,Christmas
+2024-12-16,DMart,GROC024,Groceries Item 24,groceries,240,291,74.93,2.9,17983.2,stormy,winter,medium,0,0,Christmas
+2024-12-17,DMart,CLO009,Clothing Item 9,clothing,14,18,2362.99,12.64,33081.86,cold,winter,high,0,1,Christmas
+2024-12-18,DMart,SWT007,Sweets Item 7,sweets,59,64,408.53,10.45,24103.27,stormy,winter,medium,0,0,Christmas
+2024-12-31,DMart,HTX002,Home Textile 2,home_textiles,9,10,3009.76,12.55,27087.84,hot,winter,medium,1,0,
+2025-01-09,DMart,CLO024,Clothing Item 24,clothing,12,12,2848.45,0.0,34181.4,rainy,winter,high,1,1,
+2025-01-17,DMart,STA008,Stationery Item 8,stationery,45,57,373.59,7.62,16811.55,cold,winter,medium,0,0,New Year
+2025-01-19,DMart,HTX010,Home Textile 10,home_textiles,53,64,561.13,0.0,29739.89,stormy,winter,medium,0,0,New Year
+2025-01-19,DMart,BEA007,Beauty Item 7,beauty,58,67,188.78,8.84,10949.24,hot,winter,low,0,0,
+2025-01-20,DMart,HTX001,Home Textile 1,home_textiles,6,6,5568.05,7.32,33408.3,humid,winter,medium,0,0,
+2025-02-01,DMart,CLO025,Clothing Item 25,clothing,14,17,2544.19,0.0,35618.66,sunny,winter,high,0,0,Valentine's Day
+2025-02-02,DMart,BEV019,Beverage Item 19,beverages,498,528,31.93,15.6,15901.14,cold,winter,medium,0,0,
+2025-02-05,DMart,BEV017,Beverage Item 17,beverages,75,86,202.54,0.0,15190.5,hot,winter,medium,0,0,
+2025-02-08,DMart,BEV008,Beverage Item 8,beverages,109,129,151.33,0.0,16494.97,hot,winter,medium,0,0,
+2025-02-12,DMart,CLO026,Clothing Item 26,clothing,143,158,193.16,17.68,27621.88,hot,winter,medium,0,0,Valentine's Day
+2025-02-15,DMart,TOY004,Toy 4,toys,65,78,286.98,0.0,18653.7,sunny,winter,medium,0,0,Valentine's Day
+2025-02-20,DMart,BEV011,Beverage Item 11,beverages,356,442,65.9,0.0,23460.4,stormy,winter,medium,0,0,Valentine's Day
+2025-02-26,DMart,CLO027,Clothing Item 27,clothing,8,9,2107.8,7.09,16862.4,cool,winter,medium,0,0,
+2025-02-28,DMart,SWT004,Sweets Item 4,sweets,99,102,163.41,14.77,16177.59,stormy,winter,medium,0,0,
+2025-03-06,DMart,ELE013,Electronics Item 13,electronics,6,6,26353.59,6.12,158121.54,stormy,summer,medium,0,0,
+2025-03-17,DMart,CLO006,Clothing Item 6,clothing,6,6,1625.26,4.97,9751.56,cool,summer,medium,0,0,
+2025-03-18,DMart,BEV008,Beverage Item 8,beverages,180,234,142.49,5.8,25648.2,cold,summer,medium,1,0,
+2025-03-18,DMart,TRA003,Travel Item 3,travel_accessories,12,14,1343.93,0.0,16127.16,hot,summer,medium,0,0,
+2025-03-19,DMart,ELE011,Electronics Item 11,electronics,10,13,48213.74,5.58,482137.4,hot,summer,high,0,0,
+2025-03-19,DMart,VEG004,Veg Item 4,vegetables,309,353,56.08,3.33,17328.72,rainy,summer,medium,0,0,Holi
+2025-03-19,DMart,TRA008,Travel Item 8,travel_accessories,13,14,1343.69,0.0,17467.97,hot,summer,medium,0,1,
+2025-03-23,DMart,TRA010,Travel Item 10,travel_accessories,9,11,2231.29,0.0,20081.61,cold,summer,medium,0,0,Holi
+2025-03-29,DMart,BEV017,Beverage Item 17,beverages,120,147,200.87,1.45,24104.4,cold,summer,medium,0,0,Holi
+2025-04-03,DMart,ELE016,Electronics Item 16,electronics,6,7,30432.42,19.99,182594.52,rainy,summer,medium,0,0,Ram Navami
+2025-04-06,DMart,CLO010,Clothing Item 10,clothing,17,21,1130.04,12.38,19210.68,stormy,summer,medium,0,0,
+2025-04-08,DMart,TRA004,Travel Item 4,travel_accessories,15,17,1092.41,0.45,16386.15,cool,summer,medium,0,0,
+2025-04-10,DMart,TRA001,Travel Item 1,travel_accessories,13,14,1693.62,9.25,22017.06,rainy,summer,medium,0,0,Ram Navami
+2025-04-11,DMart,CLO030,Clothing Item 30,clothing,19,20,909.45,6.53,17279.55,hot,summer,medium,0,0,
+2025-04-22,DMart,STA009,Stationery Item 9,stationery,123,141,147.21,0.0,18106.83,humid,summer,medium,0,0,Ram Navami
+2025-04-22,DMart,GROC009,Groceries Item 9,groceries,133,140,139.32,21.17,18529.56,rainy,summer,medium,1,0,
+2025-04-23,DMart,TRA006,Travel Item 6,travel_accessories,9,11,2225.42,0.0,20028.78,humid,summer,medium,1,0,
+2025-04-28,DMart,HTX008,Home Textile 8,home_textiles,6,7,3318.07,4.82,19908.42,sunny,summer,medium,0,0,Ram Navami
+2025-04-30,DMart,GROC008,Groceries Item 8,groceries,410,496,51.8,6.75,21238.0,cold,summer,medium,0,0,Ram Navami
+2025-05-04,DMart,SWT009,Sweets Item 9,sweets,21,26,634.4,0.0,13322.4,hot,summer,low,0,0,
+2025-05-07,DMart,GROC025,Groceries Item 25,groceries,29,35,347.82,13.57,10086.78,sunny,summer,low,0,0,
+2025-05-10,DMart,CLO002,Clothing Item 2,clothing,11,13,2414.79,13.97,26562.69,cool,summer,medium,1,0,
+2025-05-14,DMart,MAK001,Makeup Item 1,makeup,1,1,2522.93,3.34,2522.93,cold,summer,low,0,0,
+2025-06-03,DMart,FTW002,Footwear Item 2,footwear,15,19,1756.84,0.0,26352.6,cool,monsoon,medium,1,0,
+2025-06-06,DMart,HAP012,Home Appliance 12,home_appliances,5,6,25674.0,0.0,128370.0,hot,monsoon,medium,0,0,
+2025-06-07,DMart,BEV009,Beverage Item 9,beverages,67,69,210.03,12.21,14072.01,hot,monsoon,medium,0,0,
+2025-06-12,DMart,HAP006,Home Appliance 6,home_appliances,4,4,7908.04,13.49,31632.16,cool,monsoon,medium,0,0,
+2025-06-20,DMart,HAP005,Home Appliance 5,home_appliances,4,5,17343.66,0.0,69374.64,hot,monsoon,medium,0,0,
+2025-06-22,DMart,HAP008,Home Appliance 8,home_appliances,6,7,28324.89,0.0,169949.34,rainy,monsoon,medium,0,0,
+2025-06-24,DMart,BEV007,Beverage Item 7,beverages,181,227,169.83,0.0,30739.23,hot,monsoon,high,1,1,
+2025-06-24,DMart,TOY009,Toy 9,toys,3,3,867.51,13.87,2602.53,sunny,monsoon,low,0,0,
+2025-06-30,DMart,BEV010,Beverage Item 10,beverages,70,73,235.03,7.54,16452.1,humid,monsoon,medium,0,0,
+2025-07-03,DMart,FTW006,Footwear Item 6,footwear,25,28,1145.74,14.17,28643.5,cold,monsoon,high,1,0,Back-to-school
+2025-07-03,DMart,HAP009,Home Appliance 9,home_appliances,4,5,8539.86,1.19,34159.44,cold,monsoon,high,1,0,Back-to-school
+2025-07-07,DMart,FTW007,Footwear Item 7,footwear,2,2,3208.25,3.74,6416.5,hot,monsoon,medium,0,0,
+2025-07-17,DMart,ELE015,Electronics Item 15,electronics,2,2,38075.43,9.55,76150.86,rainy,monsoon,low,0,0,
+2025-07-17,DMart,MAK005,Makeup Item 5,makeup,14,15,2256.36,11.83,31589.04,rainy,monsoon,high,0,0,Back-to-school
+2025-08-29,DMart,HAP001,Home Appliance 1,home_appliances,2,3,18905.5,0.0,37811.0,sunny,monsoon,medium,0,0,
+2025-09-01,DMart,HAP009,Home Appliance 9,home_appliances,7,9,7264.58,17.36,50852.06,sunny,monsoon,high,0,0,
+2025-09-03,DMart,BEV017,Beverage Item 17,beverages,76,81,190.09,7.38,14446.84,sunny,monsoon,medium,0,0,
+2025-09-03,DMart,HAP011,Home Appliance 11,home_appliances,3,3,39889.97,0.02,119669.91,humid,monsoon,medium,0,0,
+2025-09-08,DMart,HAP003,Home Appliance 3,home_appliances,4,5,9122.45,20.09,36489.8,cool,monsoon,medium,0,0,
+2025-09-17,DMart,BEA008,Beauty Item 8,beauty,9,10,2069.75,8.8,18627.75,humid,monsoon,low,0,1,
+2025-09-24,DMart,BEV001,Beverage Item 1,beverages,882,1036,28.65,3.84,25269.3,cool,monsoon,medium,0,0,Ganesh Chaturthi
+2025-09-25,DMart,BEV012,Beverage Item 12,beverages,529,549,31.57,10.97,16700.53,humid,monsoon,medium,0,0,
+2025-10-12,DMart,STA003,Stationery Item 3,stationery,52,55,315.73,6.42,16417.96,sunny,autumn,medium,0,0,
+2025-10-17,DMart,CLO017,Clothing Item 17,clothing,8,9,1860.26,6.18,14882.08,sunny,autumn,medium,0,0,
+2025-10-22,DMart,MAK005,Makeup Item 5,makeup,5,6,2578.71,0.0,12893.55,rainy,autumn,medium,0,0,
+2025-10-30,DMart,SWT005,Sweets Item 5,sweets,77,82,188.45,3.95,14510.65,stormy,autumn,medium,0,0,
+2025-11-05,DMart,FTW009,Footwear Item 9,footwear,5,5,1798.34,2.56,8991.7,cold,autumn,low,0,0,
+2025-11-07,DMart,CLO027,Clothing Item 27,clothing,14,18,2293.87,0.0,32114.18,rainy,autumn,high,1,0,Diwali
+2025-11-10,DMart,SWT002,Sweets Item 2,sweets,39,48,270.02,0.0,10530.78,cool,autumn,medium,0,0,
+2025-11-11,DMart,HAP014,Home Appliance 14,home_appliances,6,7,20907.35,1.19,125444.1,sunny,autumn,medium,0,0,Diwali
+2025-11-18,DMart,CLO023,Clothing Item 23,clothing,19,24,1698.42,0.0,32269.98,stormy,autumn,medium,1,0,
+2025-12-06,DMart,BEV004,Beverage Item 4,beverages,373,465,63.68,9.38,23752.64,cold,winter,medium,0,0,Christmas
+2025-12-14,DMart,BEA007,Beauty Item 7,beauty,154,162,178.49,3.8,27487.46,cold,winter,high,1,0,Christmas
+2025-12-15,DMart,VEG013,Veg Item 13,vegetables,837,839,21.01,7.81,17585.37,cold,winter,medium,1,0,
+2025-12-22,DMart,FTW001,Footwear Item 1,footwear,11,12,1051.57,2.01,11567.27,rainy,winter,low,0,1,
+2025-12-27,DMart,SWT001,Sweets Item 1,sweets,92,101,184.0,6.34,16928.0,cold,winter,medium,0,0,
+2025-12-27,DMart,BEV005,Beverage Item 5,beverages,435,471,37.27,22.25,16212.45,sunny,winter,medium,0,0,
